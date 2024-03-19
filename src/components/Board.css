@@ -1,0 +1,55 @@
+.board {
+    display: flex;
+    aspect-ratio: 1 / 1;
+    width: min(90vw, 70vh);
+    height: min(90vw, 70vh);
+    border: 1.5px solid black;
+    flex-direction: column;
+}
+
+.board-row {
+    display: flex;
+    flex: 1;
+}
+
+.border-bottom {
+    border-bottom: 1px solid black !important;
+}
+
+.border-right {
+    border-right: 1.5px solid black !important;
+}
+
+.border-transparent {
+    border: 1px solid transparent !important;
+}
+
+.board-cell {
+    display: flex;
+    flex: 1;
+    border: 0.5px solid rgb(70, 56, 56);
+    justify-content: center;
+    align-items: center;
+    font-size: min(2rem, 5vh);
+    cursor: pointer;
+}
+
+.board-cell:hover {
+    background-color: #97f1ff;
+}
+
+.board-cell:active {
+    background-color: #6cdaff;
+}
+
+.active-cell {
+    background-color: #d1f3ff;
+}
+
+.clicked-cell {
+    background-color: #6cdaff;
+}
+
+.clicked-cell:hover {
+    background-color: #6cdaff;
+}

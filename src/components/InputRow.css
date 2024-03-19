@@ -1,0 +1,21 @@
+.input-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: min(85vw, 65vh);
+}
+
+.input-cell {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: min(2rem, 5vh);
+    cursor: pointer;
+    aspect-ratio: 1 / 1;
+}
+
+.input-cell:hover {
+    background-color: #97f1ff;
+}
